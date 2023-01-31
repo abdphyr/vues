@@ -1,5 +1,5 @@
 {
-  "name": "vuests",
+  "name": "vuequeries",
   "version": "1.0.0",
   "description": "This package for using in vue.js. This package is usefull to work with APIs and state management with pinia",
   "main": "index.js",

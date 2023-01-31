@@ -8,4 +8,5 @@ export const definePostRequest = (options, tokenKey) => new PostRequest(options,
 export const definePutRequest = (options, tokenKey) => new PutRequest(options, tokenKey);
 export const definePatchRequest = (options, tokenKey) => new PatchRequest(options, tokenKey);
 export const defineDeleteRequest = (options, tokenKey) => new DeleteRequest(options, tokenKey);
+export const defineModifRequest = (options, method, tokenKey) => useModification(options, method, tokenKey);
 export const useModif = (options, method, tokenKey) => useModification(options, method, tokenKey);

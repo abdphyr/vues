@@ -1,13 +1,10 @@
 {
-  "name": "vues",
+  "name": "vuests",
   "version": "1.0.0",
   "description": "This package for using in vue.js. This package is usefull to work with APIs and state management with pinia",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "axios": "^1.2.3"
   },
   "keywords": [
     "API",

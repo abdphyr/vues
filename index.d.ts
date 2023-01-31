@@ -19,6 +19,9 @@ export declare function definePatchRequest<T>(url: string, tokenKey?: string): P
 export declare function defineDeleteRequest<T>(options: DeleteReqOpts): DeleteRequest<T>;
 export declare function defineDeleteRequest<T>(url: string, tokenKey?: string): DeleteRequest<T>;
 
+export declare function defineModifRequest<T, Dto = undefined>(options: ModifReqOpts, config?: RawAxiosRequestConfig): ModifRequest<T, Dto>;
+export declare function defineModifRequest<T, Dto = undefined>(url: string, method: Methods, tokenKey?: string, config?: RawAxiosRequestConfig): ModifRequest<T, Dto>;
+
 export declare function useModif<T, Dto = undefined>(options: ModifReqOpts, config?: RawAxiosRequestConfig): ModifRequest<T, Dto>;
 export declare function useModif<T, Dto = undefined>(url: string, method: Methods, tokenKey?: string, config?: RawAxiosRequestConfig): ModifRequest<T, Dto>;
 
